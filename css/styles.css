@@ -240,8 +240,7 @@ background-size: cover;
 
 .list-descr{ 
     display: flex;
-    align-items: center;
-    justify-content: center;
+ 
     gap: 24px;
 }
 .title-item-descr
@@ -266,6 +265,8 @@ width: calc((100% - 72px) / 4);
             height: 112px;
             background-color:  #f4f4fd;
             display: flex;
+            align-items: center;
+          justify-content: center;
             padding: 24px 100px;
             margin-bottom: 8px;
 }
@@ -288,7 +289,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-container{
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08)
+
 }
 .portfolio-title,
 .team-title 
@@ -309,6 +310,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
     gap: 24px;
 }
+
+.item-team{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08)}
 
 .name-team 
 {
