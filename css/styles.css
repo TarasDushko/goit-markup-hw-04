@@ -371,8 +371,7 @@ width: calc((100% - 72px) / 4);
 
 .social-list-link {
     display: flex;
- transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
+ 
 
 
  .item-team
@@ -399,10 +398,12 @@ padding: 32px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
   
 }
 
-.social-list-nav:hover,
+.social-list-nav:hover, 
 .social-list-nav:focus {
     background-color:
     #404bbf;
@@ -442,7 +443,8 @@ padding: 32px 0;
 
 }
 
-.overlay {position: absolute;
+.overlay {
+    position: absolute;
 top: 0;
 left: 0;
 width: 100%;
@@ -450,6 +452,12 @@ height: 100%;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+ padding: 40px 32px;
+          background-color: #4d5ae5;
+           transform: translateY(100%);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+          
 
 }
 
@@ -474,9 +482,7 @@ color: #f4f4fd;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-         padding: 40px 32px;
-          background-color: #4d5ae5;
-          height: 100%;
+        
 }
 /* #endregion s4*/
 
@@ -487,6 +493,13 @@ color: #f4f4fd;
 }
 
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+    margin-right: 120px;
 }
  .footer-logo
   {
@@ -498,6 +511,16 @@ color: #f4f4fd;
   color:  #f4f4fd;
 }
 
+.social-media{
+    font-weight: 500;
+font-size: 16px; 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+
 .footer-info
 {
     font-size: 16px;
@@ -505,6 +528,37 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+}
+
+.social-list {
+    display:flex;
+    gap: 16px;
+}
+
+.social-list-link{
+   width: 40px;
+   height: 40px; 
+}
+
+.footer-list-nav {
+    width: 100%;
+ height: 100%;
+  background-color:  #4d5ae5;
+   border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+}
+
+.footer-list-nav:hover,
+.footer-list-nav:focus {
+    background-color: #31d0aa; 
+}
+
+.social-icons-footer {
+    fill: #f4f4fd;
 }
 
 .social-container {
