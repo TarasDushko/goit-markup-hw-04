@@ -397,9 +397,8 @@ padding: 32px 0;
 }
   
 
-
-.social-list-nav:hover,
 .social-list-nav:focus,
+.social-list-nav:hover,
 .social-list-nav:active {
      background-color: #404bbf;
 }
@@ -552,8 +551,8 @@ margin-bottom: 16px;
 
 }
 
-.footer-list-nav:hover,
 .footer-list-nav:focus,
+.footer-list-nav:hover,
 .footer-list-nav:active {
     background-color: #31d0aa; 
 }
