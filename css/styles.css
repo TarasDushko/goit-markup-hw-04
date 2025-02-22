@@ -371,7 +371,7 @@ width: calc((100% - 72px) / 4);
 
 .social-list-link {
     display: flex;
- 
+}
 
 
  .item-team
@@ -401,13 +401,17 @@ padding: 32px 0;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
   
-}
 
-.social-list-nav:hover, 
-.social-list-nav:focus {
-    background-color:
+
+.social-list-nav:hover
+ {  background-color:
     #404bbf;
+  
 }
+.social-list-nav:focus{  background-color:
+    #404bbf;
+    
+}  
 /* #endregion s3 */
 
 /* #region s4 */
