@@ -345,11 +345,8 @@ width: calc((100% - 72px) / 4);
  .social-list {
     display: flex;
     justify-content: center;
-        gap: 24px;
-    
-      
-   
-}
+     gap: 24px;
+          }
 
  .social-list-link{
     display: flex;
@@ -368,10 +365,6 @@ width: calc((100% - 72px) / 4);
     fill: #f4f4fd;
 }
 
-
-.social-list-link {
-    display: flex;
-}
 
 
  .item-team
@@ -404,11 +397,7 @@ padding: 32px 0;
 
 
 .social-list-nav:hover
- {  background-color:
-    #404bbf;
-  
-}
-.social-list-nav:focus{  background-color:
+.social-list-nav:active{  background-color:
     #404bbf;
     
 }  
@@ -465,6 +454,9 @@ color: #f4f4fd;
 
 }
 
+.overlay:hover {
+     transform: translateY(0%);
+}
 .portfolio-name-item
 {
     padding: 32px 16px;
@@ -557,7 +549,7 @@ margin-bottom: 16px;
 }
 
 .footer-list-nav:hover,
-.footer-list-nav:focus {
+.footer-list-nav:active {
     background-color: #31d0aa; 
 }
 
